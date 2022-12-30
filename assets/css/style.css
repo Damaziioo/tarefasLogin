@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+:root {
+    --primary-color: #a7ffcc;
+    --primary-color-darker: #0f4b37;
+
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color-darker);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Open sans', sans-serif;
+}
+
+.section-Tasks {
+
+    background-color: var(--primary-color);
+    max-width: 640px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.section-Login {
+    background-color: var(--primary-color);
+    max-width: 350px;
+    margin: 150px auto;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.form-login {
+    width: 200px !important;
+    display: block !important;
+    margin: 75px auto !important;
+}
+
+#apagar {
+    background-color: #d64150;
+    float: right;
+
+}
+
+.list-group-item {
+    background-color: #28da9e;
+    ;
+}
+
+
+
+.btn-success {
+    display: block;
+    margin: 20px auto;
+}
+
+.form-control-login {
+    width: 100%;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+
+#btn-tarefa {
+    border-radius: 0px 5px 5px 0px !important;
+}
